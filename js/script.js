@@ -1,8 +1,8 @@
 // function
 // get values
 // count input
-// output
 
+// output
 // clear output
 
 
@@ -15,11 +15,10 @@ function calculateBmi() {
     let weight = document.getElementById ('weight').value
 
     // count and output
-
     let bmi = (weight / (height * height) * 703)
 
     document.getElementById('heading').innerHTML = 'Your BMI status is :'
-    document.getElementById('bmi-output').innerHTML = bmi.toFixed(1)
+    document.getElementById('bmi-output').innerHTML = bmi.toFixed(1) 
 
 
     if (bmi <= 18.5) {
@@ -37,9 +36,8 @@ function calculateBmi() {
 
 }
 
-// funtion of count clear
+// funtion of clear
 // clear
-
 function reload() {
     window.location.reload()
 }
