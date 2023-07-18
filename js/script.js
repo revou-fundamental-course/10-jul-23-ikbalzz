@@ -1,14 +1,13 @@
-
-
-
 // function
 // get values
-// count
+// count input
 // output
 
+// clear output
 
 
 
+// funtion of count button
 function calculateBmi() {
     // get value
     let height = document.getElementById ('height').value
@@ -38,6 +37,7 @@ function calculateBmi() {
 
 }
 
+// funtion of count clear
 // clear
 
 function reload() {
